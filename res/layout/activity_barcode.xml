@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF121212"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barcode Scanner"
+        android:textSize="24sp"
+        android:textColor="#FF22C55E"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/et_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter or scan barcode number"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFB0B0B0"
+        android:background="#FF1E1E1E"
+        android:padding="14dp"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📷 Scan Barcode"
+        android:background="#FF22C55E"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_lookup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔍 Lookup Manually"
+        android:background="#FF1E1E1E"
+        android:textColor="#FF22C55E"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_add_manual"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="➕ Add Product Manually"
+        android:background="#FF1E1E1E"
+        android:textColor="#FFB0B0B0"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just point camera at barcode — it scans automatically"
+        android:textColor="#FFB0B0B0"
+        android:textSize="13sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"/>
+
+</LinearLayout>
