@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalorieTrack</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="enter_barcode">Enter Barcode Number</string>
+    <string name="barcode_not_found">Product not found. Add manually?</string>
+    <string name="add_manually">Add Manually</string>
+    <string name="uk_products_only">UK Products Only</string>
+    
+    <string name="today">Today</string>
+    <string name="food">Food</string>
+    <string name="burn">Burn</string>
+    <string name="body">Body</string>
+    <string name="settings">Settings</string>
+    
+    <string name="calories">Calories</string>
+    <string name="remaining">Remaining to Eat</string>
+    <string name="eaten">Eaten</string>
+    <string name="burned">Burned</string>
+    <string name="goal">Goal</string>
+    
+    <string name="protein">Protein</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    
+    <string name="maintenance_calories">Maintenance Calories</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="age">Age</string>
+    <string name="sex">Sex</string>
+    
+    <string name="kg">kg</string>
+    <string name="stone">st</string>
+    <string name="cm">cm</string>
+    <string name="ft_in">ft/in</string>
+    
+    <string name="steps">Steps</string>
+    <string name="water">Water</string>
+    <string name="fasting_since">Fasting since</string>
+    
+    <string name="phone_sensor">Phone Sensor</string>
+    <string name="samsung_health">Samsung Health</string>
+    <string name="step_source">Step Source</string>
+</resources>
