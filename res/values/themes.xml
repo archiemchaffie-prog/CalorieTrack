@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CalorieTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">#FF16A34A</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:colorBackground">@color/dark_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>
