@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="24sp"
+            android:textColor="#FF22C55E"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Weight Unit -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight Unit"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_weight_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rb_kg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="kg"
+                android:textColor="#FFFFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/rb_stone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stone"
+                android:textColor="#FFFFFFFF"/>
+        </RadioGroup>
+
+        <!-- Height Unit -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height Unit"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_height_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rb_cm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cm"
+                android:textColor="#FFFFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/rb_ft_in"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ft/in"
+                android:textColor="#FFFFFFFF"/>
+        </RadioGroup>
+
+        <!-- Step Source -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step Counter Source"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_step_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rb_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Sensor"
+                android:textColor="#FFFFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/rb_samsung_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsung Health (via Health Connect)"
+                android:textColor="#FFFFFFFF"/>
+        </RadioGroup>
+
+        <!-- UK Products Only -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barcode Settings"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_uk_only"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UK Products Only"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When enabled, prioritises UK product database for faster local results."
+            android:textSize="12sp"
+            android:textColor="#FFB0B0B0"
+            android:paddingStart="4dp"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
