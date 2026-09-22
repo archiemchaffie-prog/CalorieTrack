@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application' version '7.4.2'
+}
+
+android {
+    namespace 'com.calorietrack'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.calorietrack"
+        minSdk 24
+        targetSdk 34
+        versionCode 2
+        versionName "1.2"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation 'androidx.health.connect:client:1.1.0-alpha03'
+}
